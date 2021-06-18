@@ -47,7 +47,7 @@ Get-FirstRecurringCharacter -String 'Algeria' -WarningAction Continue
 WARNING: The provided string does not contain recurring characters.
 
 .NOTES
-This function is case sensitive. Because the characters 'A' and 'a' are unique
+This function is case sensitive. The characters 'A' and 'a' are considered unique.
 #>
 function Get-FirstRecurringCharacter {
     [CmdletBinding()]
